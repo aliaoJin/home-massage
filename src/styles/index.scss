@@ -1,0 +1,17 @@
+.active_btn {
+    transition: all 0.2s ease 0s;
+    transform: translateY(-6rpx);
+}
+.active_btn:active {
+    transform: translateY(-2rpx);
+}
+.df-r {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.df-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
